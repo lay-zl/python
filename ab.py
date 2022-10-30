@@ -1,0 +1,6 @@
+
+
+
+
+def qw(n):
+  pass
