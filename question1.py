@@ -5,7 +5,12 @@
 """
 
 def remove_duplicates(s):
-   pass
+    ot = ''
+    for i in s:
+        if i not in ot:
+            ot = ot + i
+    return ot
+
 
 
 if __name__ == '__main__':

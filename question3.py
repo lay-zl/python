@@ -5,7 +5,8 @@
 
 
 def get_values(data):
-   pass
+
+    return list(reversed(sorted(data,key=data.get)))
 
 
 if __name__ == '__main__':

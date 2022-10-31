@@ -4,8 +4,7 @@
 """
 
 def get_values(data):
-   pass
-
+    return list(reversed(sorted(data.values())))
 
 if __name__ == '__main__':
     case1 = get_values({'a':1234, 'b':2633, 'c':111})

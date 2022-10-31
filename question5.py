@@ -24,7 +24,9 @@ class StudentMarks(models.Model):
 # Assuming data already exists in the System.
 # Complete code using Django ORM to find total marks across all subjects in a given year.
 def get_total_score(exam_date_year):  # Returns reg_no : total_marks
-   pass
+   obj1 = Student.objects.values('reg_no').select_related('StudentMarks').valuse('score')
+   return obj1
+
 
 
 """
